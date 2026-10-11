@@ -1,6 +1,6 @@
-AI-Powered Penetration Testing Lab
+# AI-Powered Penetration Testing Lab
 
-Overview
+## Overview
 
 This repository documents hands-on experiments in AI-assisted web application penetration testing, conducted as part of my MSc research in Computer Science.
 
@@ -8,23 +8,24 @@ The project investigates how AI-powered tools can identify web application vulne
 
 All experiments are conducted in an authorized, isolated laboratory environment.
 
-Lab Environment
+## Lab Environment
 
-- Operating System: Kali Linux (VirtualBox)
-- Target Application: Damn Vulnerable Web Application (DVWA)
-- Containerization: Docker
-- AI Security Tool: PentestGPT
-- AI Backend: OpenAI Codex
-- Target Security Level: DVWA Low
+- **Operating System:** Kali Linux (VirtualBox)
+- **Target Application:** Damn Vulnerable Web Application (DVWA)
+- **Containerization:** Docker
+- **AI Security Tool:** PentestGPT
+- **AI Backend:** OpenAI Codex
+- **Target Security Level:** DVWA Low
 
 ## Completed Experiments
 
 | # | Experiment | Result |
+|---|---|---|
 | 01 | Web Application Reconnaissance | Completed |
 | 02 | Boolean-Based SQL Injection | Vulnerability detected |
 | 03 | Reflected Cross-Site Scripting (XSS) | Vulnerability detected |
 
-Methodology
+## Methodology
 
 Each experiment follows a consistent workflow:
 
@@ -35,7 +36,7 @@ Each experiment follows a consistent workflow:
 5. Validate findings against observable evidence.
 6. Document results, limitations, and execution time.
 
-Initial Findings
+## Initial Findings
 
 PentestGPT successfully identified the DVWA application and its login page during reconnaissance.
 
@@ -45,10 +46,10 @@ During reflected XSS testing, the tool observed an unencoded JavaScript payload 
 
 One XSS testing attempt was blocked by a tool execution issue, after which a subsequent attempt completed successfully.
 
-Project Status
+## Project Status
 
-Ongoing research.Additional vulnerability assessments, experimental evidence, and comparative analysis will be added as the project progresses.
+**Ongoing research.** Additional vulnerability assessments, experimental evidence, and comparative analysis will be added as the project progresses.
 
-Ethical Disclaimer
+## Ethical Disclaimer
 
 All security testing is performed exclusively against intentionally vulnerable applications in a controlled, authorized lab environment. No unauthorized systems are targeted.
