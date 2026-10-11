@@ -45,6 +45,14 @@ The execution logs showed that the agent used `curl` to send an HTTP request to 
 
 PentestGPT successfully completed the reconnaissance objective in the authorized laboratory environment. The finding was supported by recorded HTTP responses and executor logs, rather than relying solely on the AI-generated summary.
 
+
 ## Evidence
 
-Execution screenshots and selected sanitized logs will be added to document the observed behavior.
+### Execution Summary
+
+![PentestGPT execution summary](PentestGPT_05_Execution_Summary.png)
+
+### Executor Command
+
+![PentestGPT curl command execution](PentestGPT_06_Executor_Command.png)
+  
